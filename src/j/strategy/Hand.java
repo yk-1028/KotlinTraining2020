@@ -1,4 +1,4 @@
-package java.strategy;
+package j.strategy;
 
 public class Hand {
     public static final int HANDVALUE_GUU = 0;  // �O�[��\���l

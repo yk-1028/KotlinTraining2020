@@ -1,4 +1,4 @@
-package java.observer;
+package j.observer;
 
 import java.util.Random;
 

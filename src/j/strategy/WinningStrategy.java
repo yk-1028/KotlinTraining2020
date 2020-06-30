@@ -1,4 +1,4 @@
-package java.strategy;
+package j.strategy;
 
 import java.util.Random;
 

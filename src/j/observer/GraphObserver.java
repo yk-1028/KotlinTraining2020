@@ -1,4 +1,4 @@
-package java.observer;
+package j.observer;
 
 public class GraphObserver implements Observer {
     public void update(NumberGenerator generator) {

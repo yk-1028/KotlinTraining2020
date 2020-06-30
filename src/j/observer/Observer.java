@@ -1,4 +1,4 @@
-package java.observer;
+package j.observer;
 
 public interface Observer {
     public abstract void update(NumberGenerator generator);

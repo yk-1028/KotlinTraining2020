@@ -1,4 +1,4 @@
-package java.strategy;
+package j.strategy;
 
 public class Main {
     public static void main(String[] args) {

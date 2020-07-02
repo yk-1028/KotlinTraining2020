@@ -4,10 +4,14 @@ class GraphObserver: Observer {
     override fun update(generator: NumberGenerator) {
         println("${javaClass.simpleName}:")
         val count = generator.getNumber()
+        val sb = StringBuilder()
         for(i in 1..count) {
-            println('*')
+            //kotlinだと勝手に改行が入る
+//            println('*')
+            sb.append('*')
         }
-        println("")
+//        println("")
+        println(sb.toString())
         try {
             Thread.sleep(100)
         } catch (e: InterruptedException) {
